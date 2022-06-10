@@ -1,0 +1,198 @@
+body{
+      content: '';
+      background-image: url(../Imagens/Sonic_Back.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;          
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+   opacity: 8;
+   color:red;
+}
+
+
+.Cabecalho{
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: fantasy;
+  font-style: italic;
+  background-color: var(--cor-azul-principal);
+  border: solid white;
+  height: 8vh;
+}
+
+.Nova_Lista{
+  display: inline-flex;
+  line-height: 10px;
+}
+
+.Nova_Lista li {
+   padding: 20px;
+   font-size: 30px;
+   font-style: italic;
+}
+
+.Logo img{
+    width: 280px;
+}
+
+.Lista_de_Personagens{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    margin: 50px 15px 150px;  
+}
+
+.Nome{
+      text-align: center;
+}
+
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    border: solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: red;
+}
+
+.Sonic img{
+    width: 150px;
+    height: 210px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.Sonic:hover{
+    transform: scale(1.10);
+    animation: c-glowing-blue 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+.Sonic_Branco img{
+    width: 150px;
+    height: 210px;
+    margin: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 2;    
+}
+
+.Sonic_Branco:hover{
+    transform: scale(1.10);
+    animation: c-glowing-blue 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+.Sonic_Dark img{
+    width: 150px;
+    height: 210px;
+    margin: 8px;    
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.Sonic_Dark:hover{
+    transform: scale(1.10);
+    animation: c-glowing-blue 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+.Sonic_Red img{
+    width: 150px;
+    height: 210px;
+    margin: 8px;     
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.Sonic_Red:hover{
+    
+    transform: scale(1.10);
+    animation: c-glowing-blue 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+.Teios img{
+    width: 150px;
+    height: 210px;
+    margin: 8px;     
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.Teios:hover{
+    transform: scale(1.10);
+    animation: c-glowing-blue 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+.Sonic_Fogo img{
+    width: 150px;
+    height: 210px;
+    margin: 8px;     
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.Sonic_Fogo:hover{
+    transform: scale(1.10);
+    animation: c-glowing-blue 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+.Infinity img{
+    width: 150px;
+    height: 210px;
+    margin: 8px;     
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.Infinity:hover{
+    transform: scale(1.10);
+    animation: c-glowing-blue 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+.Rosinha img{
+    width: 150px;
+    height: 210px;
+    margin: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.Rosinha:hover{
+    transform: scale(1.10);
+    animation: c-glowing-blue 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+}
